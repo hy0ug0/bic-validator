@@ -18,6 +18,25 @@ jobs:
               run: yarn
             - name: Test
               run: yarn test
+    coverage:
+        needs: [test]
+        name: Coverage
+        runs-on: ubuntu-18.04
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+            - name: Setup Node.js
+              uses: actions/setup-node@v2
+              with:
+                  node-version: 12
+            - name: Install dependencies
+              run: yarn
+            - name: Test & publish code coverage
+              uses: paambaati/codeclimate-action@v2.7.5
+              env:
+                  CC_TEST_REPORTER_ID: e87e13615b64a8b23b072e438d033f22db1518beee5c9f096c94da77ca3a4ca2
+              with:
+                  coverageCommand: yarn test:coverage
     build:
         name: Build
         if: success()
