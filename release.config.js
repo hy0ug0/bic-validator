@@ -1,6 +1,6 @@
 module.exports = {
     branch: 'master',
-    repositoryUrl: 'git@github.com:hy0ug0/bic.git',
+    repositoryUrl: 'git@github.com:hy0ug0/bic-validator.git',
     verifyConditions: ['@semantic-release/npm'],
     plugins: [
         [

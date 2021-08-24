@@ -13,7 +13,7 @@ export default {
         {
             file: pkg.browser,
             format: 'umd',
-            name: 'bic',
+            name: 'bicValidator',
         },
     ],
     plugins: [
