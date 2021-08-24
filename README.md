@@ -3,8 +3,8 @@
 ## BIC (Business Identifier Code) format validator
 
 ![Release](https://github.com/hy0ug0/bic-validator/workflows/Release/badge.svg?branch=master)
-<a href="https://codeclimate.com/github/hy0ug0/bic-validator/maintainability"><img src="https://api.codeclimate.com/v1/badges/1052799875faebe49216/maintainability" /></a>
-<a href="https://codeclimate.com/github/hy0ug0/bic-validator/test_coverage"><img src="https://api.codeclimate.com/v1/badges/1052799875faebe49216/test_coverage" /></a>
+<a href="https://codeclimate.com/github/hy0ug0/bic-validator/maintainability"><img src="https://api.codeclimate.com/v1/badges/7eb633b812c354b64718/maintainability" /></a>
+<a href="https://codeclimate.com/github/hy0ug0/bic-validator/test_coverage"><img src="https://api.codeclimate.com/v1/badges/7eb633b812c354b64718/test_coverage" /></a>
 
 ### FORKED FROM [https://github.com/nicolaspayot/bic](https://github.com/nicolaspayot/bic)
 
